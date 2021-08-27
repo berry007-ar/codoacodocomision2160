@@ -17,7 +17,7 @@ li{
     margin: 10px 10px;
 }
 #padre, ul{
-    background-color: black;
+    background-color: rgb(211, 116, 116);
     display: flex;
     justify-content: space-around;
 }
