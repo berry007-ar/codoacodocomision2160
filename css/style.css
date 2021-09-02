@@ -28,4 +28,37 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.hija:hover{
+    border-radius: 0px 10px;
+
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+}
+#init, #add, #status, #commit,#push{
+    width: 18%;
+    float: left;
+    border-bottom: 5px solid black;
+    border-top: 5px double black;
+    border-right: 5px dotted black;
+    box-sizing: border-box;
+    margin: 5px;
+    height: 800px;
+}
+span{
+    background-color: green;
+    color: yellow;
+}
+div#init{
+    background-color: blueviolet;
+}
+div#init h2{
+    background-color: rgb(255, 0, 200);
+}
 
