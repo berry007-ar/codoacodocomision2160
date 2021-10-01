@@ -1,0 +1,14 @@
+.principal {
+    display: flow;
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }*/
+
+.cuadro{
+    background-color: blueviolet;
+    width:20%;
+    height: 200px;
+    margin: 10px 10px;
+    
+}
