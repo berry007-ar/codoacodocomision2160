@@ -1,0 +1,45 @@
+
+
+
+/*<nav class="navbar navbar-expand-lg navbar-dark top-fixed px-5" style= "background-color: #474B4E">
+<div class="container-fluid">
+  <img src="/Integrador/img/codoacodo.png" alt="Codo a Codo" width="100">
+  <a class="navbar-brand" href="#">Conf Bs As</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>              
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Los oradores</a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">El lugar y la fecha</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Conviértete en orador</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-success">Comprar tickets</a>
+      </li>
+    </ul>
+   </div>              
+</div>
+</nav */
+
+
+
+<header>
+            <div class="row text-white text-end position-relative">
+                <img src="/Integrador/img/ba1.jpg" class="card-img" alt="Buenos Aires">
+                <div class="col-5 position-absolute top-50 start-50 traslate-middle mi_contenedor">
+                <h1 class="card-title">Conf Bs As</h1>
+                <h6 class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro del internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!.</h6>
+                <button type="button" class="btn btn-outline-success text-white border-white">Quiero ser orador</button>
+                <button type="button" class="btn btn-success btn-outline-sucess boton-comprar">Comprar tickets</button>
+                </div>
+            </div>
+          </header>
