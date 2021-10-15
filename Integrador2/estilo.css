@@ -83,5 +83,38 @@
         width: 50%;
     }
 
-
- }
+    .footer {
+        background-image: linear-gradient(to right, #1c3643, #1e5372);
+        height: 80px;
+        text-align: center;
+        align-items: center !important;
+        vertical-align: middle !important;
+        font-size: small;
+      }
+      
+     
+      .links {
+        text-decoration: none !important;
+        color: white !important;
+      }      
+      
+      .divo{
+          text-align: center;
+      }
+      
+      .button {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 20px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: #fff;
+          background-color: #1d64a7;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+        }
+        
+        .button:hover {background-color: #115994}
