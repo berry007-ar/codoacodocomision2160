@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="/Integrador2/estilo.css">
-    <title>Trabajo Integrador</title>
-    
+    <title>Trabajo Integrador</title>   
 </head>
 
 <body>
+  <main>
+        
+        <!--Barra de navegacion-->
 
-    <main>
-        
-        
-        <nav class="navbar navbar-expand-lg navbar-dark top-fixed px-5" style= "background-color: #424242">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5" style= "background-color: #424242">
             <div class="container-fluid">
 
-               <img src="/Integrador/img/codoacodo.png" alt="Codo a Codo" width="100">
+               <img src="/Integrador2/Imagenes/codoacodo.png" alt="Codo a Codo" width="100">
               <a class="navbar-brand" href="#">Conf Bs As</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,13 +28,13 @@
                     <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Los Oradores</a>
+                    <a class="nav-link" href="#oradores">Los Oradores</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">El lugar y la fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Conviértete en orador</a>
+                    <a class="nav-link" href="#seorador">Conviértete en orador</a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link text-success">Comprar tickets</a>
@@ -47,7 +46,7 @@
 
           <header>
             <div class="row text-white text-end position-relative bg-dark">
-                <img src="/Integrador/img/ba1.jpg" class="card-img opacity-50" alt="Buenos Aires">
+                <img src="/Integrador2/Imagenes/ba1.jpg" class="card-img opacity-50" alt="Buenos Aires">
                 <div class="col-5 position-absolute top-50 start-50 traslate-middle mi_contenedor">
                 <h1 class="card-title">Conf Bs As</h1>
                 <h5 class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro del internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!.</h5>
@@ -58,7 +57,7 @@
 
         </header>     
           
-        <div class="container">
+        <div class="container" id="oradores">
           <div class="row">
              <div class="col-sm-12 bg-light mt-2 text-center bg-white">
               <class class="fs-6 text-center text-uppercase"> conoce a los<br> </class>
@@ -68,10 +67,10 @@
                 
        <!--oradores>-->
 
-      <div class="row justify-content-center">
+      <div class="row justify-content"> 
         <div class="card-group h-100">
           <div class="card mx-2 border-white">
-            <img src="/Integrador/img/steve.jpg" class="card-img-top justify mb-3" alt="steve Jobs">
+            <img src="/Integrador2/Imagenes/steve.jpg" class="card-img-top justify mb-3" alt="steve Jobs">
             <div class="card-body">
               <div class="badge bg-warning text-wrap text-dark">
                 JavaScript
@@ -85,7 +84,7 @@
 
              </div>
           <div class="card mx-2 border-white">
-            <img src="/Integrador/img/bill.jpg" class="card-img-top" alt="Bill gates">
+            <img src="/Integrador2/Imagenes/bill.jpg" class="card-img-top" alt="Bill gates">
             <div class="card-body">
               <div class="badge bg-warning text-wrap text-dark">
                 JavaScript
@@ -99,7 +98,7 @@
              </div>
 
       <div class="card mx-2 border-white">
-          <img src="/Integrador/img/ada.jpeg" class="card-img-top" alt="ada">
+          <img src="/Integrador2/Imagenes/ada.jpeg" class="card-img-top" alt="ada">
         <div class="card-body">
               <div class="badge bg-secondary text-wrap">Negocios</div>              
               <div class="badge bg-danger text-wrap">Startups</div>
@@ -107,19 +106,17 @@
               <p class="card-text small lh-lg mt-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tenetur porro, dolore sed soluta dolorum, tempora ipsa obcaecati ut molestiae maxime sapiente, similique dolores nobis sit. Rem obcaecati minima repudiandae.</p>
          </div>
       </div>
-
-      </class>     
-
+      </class>
        </div>
 
-       <!--honololu -->
+<!--honololu -->
     <div class="d-flex"> <br><br>
       <div class="p-6 flex-fill bd-highlight"></div>          
     </div>
        <class class="card">
       <div class="row text-white justify-content-center">
         <div class="col p-0">
-            <img src="/Integrador/img/honolulu.jpg" alt="homololu" class="img-fluid" />
+            <img src="/Integrador2/Imagenes/honolulu.jpg" alt="homololu" class="img-fluid" />
         </div>
         <div class="col" style="background-color: #424242;">
           
@@ -137,18 +134,18 @@
         
       </div>
     </div>
-  </class>
+   </class>
 
     <!--Titulo Formulario -->
     <br>
 
-    <div class="container">
+    <div class="container" id="seorador">
       <div class="row">
          <div class="col-sm-12 bg-light mt-2 text-center bg-white">
           <class class="fs-6 text-center text-uppercase"> Conviértete en un<br> </class>
            <class class="fs-2 text-center text-uppercase lh-1"> <h2>Orador</h2></class> </div>
            <class class="small text-center"> Anótate como orador para dar una <class class="text-decoration-underline">charla ignite</class>. Cuéntanos de que quieres hablar!<br> </class>
-         </div>
+          </div>
          
      <!--Formulario -->
       <div class="row justify-content-center">
@@ -170,16 +167,16 @@
           <textarea class="form-control" placeholder= "Sobre que quieres hablar?" id="floatingTextarea2" style="height: 80px"></textarea>
           <div id="formhelp" class="small form-text">Recuerda incluir un titulo para tu charla</div><br>                    
         <button type="submit" class="btn btn-success btn-outline-light border-white" style="background-color:rgb(140, 192, 88);">Enviar</button>    
-     </div>    
-   </div>
-  </div>  
-  </div>
- </div>
-</form>
-</main>
+        </div>    
+            </div>
+        </div>  
+       </div>
+      </div>
+
+  </main>
   
 
-  <<footer>
+  <footer>
     <div class="footer">
     <div class="container">
         <div class="row footer">
@@ -206,7 +203,7 @@
 
 <div class="otrosdivs divo">
   <div>
-    <a href="" target="_blanc"
+    <a href="palprofe" target="_blanc"
       ><input class="button" type="button" value="Actividad en Git"/></a>
   </div>
   <br />
