@@ -80,6 +80,7 @@
         transform: translate(-20%, -30%);
         width: 50%;
     }
+    
 }
 
     .footer {
@@ -117,3 +118,12 @@
         }
         
         .button:hover {background-color: #115994}
+        
+        .playa{
+            margin: 0;
+            margin-right: 0px;
+            padding-right: 0px;
+            width: 50%;
+        }
+        
+
