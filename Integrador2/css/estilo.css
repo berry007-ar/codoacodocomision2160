@@ -15,6 +15,7 @@
     }
     .mi_contenedor .btn {
         font-size: 10px;
+        
    }
 
 } 
@@ -24,16 +25,16 @@
         font-size: 16px;
     }
     .mi_contenedor h5 {
-        font-size: 14px;
+        font-size: 10px;
     }
     div .mi_contenedor {
         transform: translate(-40%, -50%);
         width: 70%;
     }
     .mi_contenedor .btn {
-        font-size: 14px;
-}
-   
+        font-size: 5px;
+    }
+      
    } 
 
    @media (min-width: 600px){ 
@@ -64,6 +65,7 @@
         transform: translate(-20%, -50%);
         width: 50%;
     }
+    
    }
 
  @media (min-width:1024px) { 
