@@ -17,6 +17,12 @@
         
    }
 
+   div .footer{
+       width: 100%;
+       font-size: 4px;
+       padding: 0%;
+   }
+
 } 
 
 @media (min-width: 410px){ 
@@ -32,6 +38,12 @@
     }
     .mi_contenedor .btn {
         font-size: 5px;
+    }
+
+    div .footer{
+        width: 100%;
+        font-size: 5px;
+        padding: 0%;
     }
       
    } 
@@ -84,12 +96,13 @@
 
     .footer {
         background-image: linear-gradient(to right, #1c3643, #1e5372);
-        height: 80px;
+        height: 90px;
         text-align: center;
         align-items: center !important;
         vertical-align: middle !important;
-        font-size: medium;
-              }
+        font-size: medium;        
+          }
+
       
    
       .links {
