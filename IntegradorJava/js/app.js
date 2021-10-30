@@ -35,6 +35,7 @@ if(desc == "estudiante"){
     alert.innerHTML="Total a pagar: $";
     alert.innerHTML+=resultado;
 }
+
 modal.innerHTML=`
     <p>Nombre: ${comp.nombre}</p>
     <p>Apellido: ${comp.apellido}</p>
@@ -47,7 +48,7 @@ modal.innerHTML=`
 }
 
 const crearNumTicket =()=>{
-return Math.floor(Math.random()*9);
+return Math.floor(Math.random()*5);
 };
 const limpiar =()=>{
 let alert = document.querySelector("#totalCompra");
